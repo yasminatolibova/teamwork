@@ -8,7 +8,7 @@ schema_view = get_schema_view(
     openapi.Info(
         title='Hamkor Bank System',
         default_version='v1',
-        description='Book Store loyihasi uchun api'
+        description='Hamkor Bank loyihasi uchun api'
     ),
     public=True,
     permission_classes=[permissions.AllowAny]
