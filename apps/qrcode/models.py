@@ -19,7 +19,7 @@ class QrCode(models.Model):
     status=models.CharField(max_length=250, choices=STATUS)
     created_at=models.DateTimeField(auto_now_add=True)
     TYPE=[
-        ('payment', 'Payemnt'),
+        ('payment', 'Payement'),
         ('login', 'Login'),
         ('verification', 'Verification')
     ]

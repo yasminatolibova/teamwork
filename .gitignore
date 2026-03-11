@@ -1,0 +1,15 @@
+# Python
+*.pyc
+__pycache__/
+
+# Django
+db.sqlite3
+/media/
+
+
+
+# Git
+*.log
+
+#ignore environment 
+.env
