@@ -19,7 +19,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG') == 'True'
 
-ALLOWED_HOSTS = ['teamwork-1-oqhf.onrender.com', 'www.teamwork-1-oqhf.onrender.com']
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -150,3 +150,4 @@ MEDIA_URLS='/media/'
 MEDIA_ROOT=BASE_DIR / 'media'
 
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / "staticfiles"
